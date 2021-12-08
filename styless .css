@@ -9,7 +9,7 @@
 body {
     width: 50%;
     min-height: 100vh;
-    background-color: azure;
+    background-color: rgb(61, 61, 57);
     margin: 0;
     padding: 0;
     display: flex;
@@ -29,7 +29,7 @@ body {
     width: 50%;
 }
 .instagram-phone img {
-    height: 2600%;
+    height: 3000%;
     width: 2600%;
 }
 .instagram-continue{
@@ -41,29 +41,30 @@ body {
     min-height: 40rem;
 }
 .group {
-    display: flex;
+    display: flex;    
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     background-color: #fff;
-    width: 90%;
-    padding: 1.3rem 0;
-    border: 1px solid lightgray;
+    width: 100%;
+    padding: 1.5rem 0;
+    border: 3px solid rgb(250, 179, 179);
 }
 .group:nth-child(1){
-    min-height: 9rem;
+    min-height: 4rem;
+    border-radius: 25%;
 }
 .group:nth-child(2){
-    min-height: 9rem;
+    min-height: 5rem;
 }
 .instagram-logo{
-    height: 4rem;
+    height: 6rem;
 }
 .profile-photo {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 40%;
     overflow: hidden;
 }
 .profile-photo img{
